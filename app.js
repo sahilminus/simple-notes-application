@@ -1,27 +1,7 @@
-// const fs=require('fs');
-// const add=require('./utils.js');
-// fs.writeFileSync('notes.txt','This file is created with node.js!');
-// fs.appendFileSync('notes.txt',' challenge to append something to file');
-
-// const sum=add(4,2);
-// console.log(sum);
-//NODE MODULES
-//const validator=require('validator');
-
 const yargs=require('yargs');
 const chalk=require('chalk');
 const notes=require('./notes.js');
 const { argv, demandOption } = require('yargs');
-
-//const printNotes=getNotes();
-//console.log(printNotes);
-// console.log(validator.isEmail('sa@gmail.com'));
-// console.log(validator.isURL('https://www.udemy.com/course/the-complete-nodejs-developer-course-2/learn/lecture/13728848#overview'));
-//console.log(chalk.bold.blue.inverse('Success'));
-
-//Command Line Argument
-// console.log(process.argv);
-// console.log(process.argv[2]);
 
 //creating command
 yargs.command({
